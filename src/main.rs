@@ -100,7 +100,7 @@ pub fn main() {
 
     let video_subsystem = sdl_context.video().unwrap();
 
-    let window = video_subsystem.window("Poxel Viewer", 200, 200)
+    let window = video_subsystem.window("Poxel Viewer", 512, 512)
         .position_centered()
         .allow_highdpi()
         .resizable()
